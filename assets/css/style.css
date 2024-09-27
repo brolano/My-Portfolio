@@ -221,23 +221,23 @@ main {
 
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
-.run-buddy {background-image: url("../images/surfer-big-blue-ocean-wave-ai-generative.jpg");
+.run-buddy {background-image: url("../images/Morat-Fribourg_2009-2.jpg");
   
 }
 
-.led-wall {
+.led-wall {background-image: url("../images/LEDs.jpg");
   
 }
 
-.react-calc {
+.react-calc {background-image: url("../images/sewing-digital-product.jpg");
   
 }
 
-.pastel-puzzles {
+.pastel-puzzles {background-image: url("../images/Jigsaw_puzzle_01_by_Scouten.jpg");
   
 }
 
-.surf-report {
+.surf-report {background-image: url("../images/surfer-big-blue-ocean-wave-ai-generative.jpg");
   
 }
 
@@ -276,5 +276,12 @@ main {
     font-size: 7vw;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .flex-item {
+      min-height: 150px;
+    }
+    .flex-item:first-child {
+      min-height: 150px;
+    }
+  }
 /* TODO: add media query for a max-width of 768px */
